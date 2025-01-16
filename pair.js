@@ -27,7 +27,7 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-  email: 'pibon46879@myweblaw.com', // // Your Mega A/c Email Here
+  email: 'sidot62903@fundapk.com', // // Your Mega A/c Email Here
   password: 'ILOVEELIXA' // Your Mega A/c Password Here
 }).ready
         console.log('Mega storage initialized.');
@@ -103,8 +103,7 @@ router.get('/', async (req, res) => {
 
                     const session = await Gifted.sendMessage(Gifted.user.id, { text: sid }, { disappearingMessagesInChat: true, ephemeralExpiration: 600, });
 
-                    const GIFTED_TEXT = `
-                    Thank you for choosing Elixa! ❤️
+                    const GIFTED_TEXT = `Thank you for choosing Elixa! ❤️
 > By BIT X🇱🇰
 > 𝗚𝗲𝟆𝗮𝗿𝗮𝐭𝗲𝙙 𝝗𝞤 𝗘ꟾ𝖎✘𝗮 ‐𝝡𝗗༺
 > By Nethindu Thaminda 
